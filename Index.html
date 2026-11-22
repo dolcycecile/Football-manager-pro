@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Football Manager Pro</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+}
+
+header {
+    background: #087c45;
+    padding: 22px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #1e293b;
+    padding: 14px 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.container {
+    padding: 18px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+}
+
+h2 {
+    color: #22c55e;
+    font-size: 19px;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #475569;
+}
+
+button {
+    background: #16a34a;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #15803d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>⚽ FOOTBALL MANAGER PRO</h1>
+    <p>Le football à portée de main</p>
+</header>
+
+<nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#matchs">Matchs</a>
+    <a href="#classements">Classements</a>
+    <a href="#actualites">Actualités</a>
+</nav>
+
+<div class="container">
+
+    <section class="card" id="accueil">
+        <h2>🏆 Bienvenue !</h2>
+        <p>
+        Suivez vos équipes préférées, découvrez les résultats
+        et restez informés de toute l'actualité footballistique.
+        </p>
+    </section>
+
+    <section class="card" id="matchs">
+        <h2>⚽ Matchs de démonstration</h2>
+
+        <div class="match">
+            <span>Real Madrid</span>
+            <strong>VS</strong>
+            <span>Barcelona</span>
+        </div>
+
+        <div class="match">
+            <span>PSG</span>
+            <strong>VS</strong>
+            <span>Marseille</span>
+        </div>
+
+        <div class="match">
+            <span>Manchester City</span>
+            <strong>VS</strong>
+            <span>Arsenal</span>
+        </div>
+    </section>
+
+    <section class="card" id="classements">
+        <h2>📊 Classements</h2>
+        <p>
+        Retrouvez les positions des équipes dans leurs
+        différents championnats.
+        </p>
+        <button onclick="alert('Les classements seront bientôt disponibles !')">
+        Voir les classements
+        </button>
+    </section>
+
+    <section class="card" id="actualites">
+        <h2>📰 Actualités</h2>
+        <p>
+        Découvrez prochainement les dernières informations
+        du monde du football.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>🌍 Football africain</h2>
+        <p>
+        Suivez les compétitions africaines et les performances
+        de vos équipes préférées.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 Football Manager Pro.
+    Tous droits réservés.
+</footer>
+
+</body>
+          </html>
